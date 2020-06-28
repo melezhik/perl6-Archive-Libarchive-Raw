@@ -5,7 +5,7 @@
   "version" : "0.1.0",
   "description" : "Raw interface to libarchive",
   "build-depends" : [ "HTTP::UserAgent" ],
-  "depends" : [ "NativeCall" ],
+  "depends" : [ "NativeCall", "archive:from<native>:ver<13>" ],
   "test-depends" : [ "Test" ],
   "provides" : {
     "Archive::Libarchive::Raw" : "lib/Archive/Libarchive/Raw.rakumod",
